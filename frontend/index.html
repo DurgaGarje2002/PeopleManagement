@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>People Management System</h1>
+
+    <div class="form-container">
+        <h3>Add / Update Person</h3>
+
+        <input type="hidden" id="personId">
+
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter name">
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+
+        <label>Role:</label>
+        <input type="text" id="role" placeholder="Enter role">
+
+        <label>Salary:</label>
+        <input type="number" id="salary" placeholder="Enter salary">
+
+        <button onclick="savePerson()">Save</button>
+        <button onclick="clearForm()" class="secondary">Clear</button>
+    </div>
+
+    <h3>People List</h3>
+    <table border="1" id="peopleTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Salary</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.people.exception;
+
+public class ResourceNotFoundException {
+
+}

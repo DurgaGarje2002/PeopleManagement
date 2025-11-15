@@ -1,0 +1,5 @@
+package com.people.controller;
+
+public class PersonController {
+
+}

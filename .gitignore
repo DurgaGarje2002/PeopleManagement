@@ -1,0 +1,24 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# STS / IntelliJ / VS Code
+.settings/
+.project
+.classpath
+.idea/
+.vscode/
+
+# Node / JS
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+.env

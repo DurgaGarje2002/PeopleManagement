@@ -1,0 +1,5 @@
+package com.people.repository;
+
+public interface PersonRepository {
+
+}
